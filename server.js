@@ -6,7 +6,7 @@ import { userRouter } from './routers/users.router.js';
 import { mainErrorHandler, noRouteHandler } from './middlewares/errorHandler.middleware.js';
 import { env } from './config/environment.js';
 // import dotenv from 'dotenv';
-if (process.env.NODE_ENV = )
+
 
 //create app
 const app = express();
@@ -46,3 +46,5 @@ app.listen(port, console.log(`server is up on port: ${port}. 👻`));
 //console.log(email, dbPassword, port);
 
 // change repo: git init, git remote add origin git@github.com:FbW-WD-22-E07/todo-backend-daniek.git
+// Then: git add, git commit -m "add", git push --set-upstream origin main
+// Check which repo with: git remote -v
